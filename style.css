@@ -1,0 +1,10 @@
+.bg-custom{
+    background: linear-gradient(to bottom, rgb(255, 255, 255),rgb(0, 0, 0, 0)),url(./media/mountains.png), url(./media/switzerland-862870_1920.jpg);
+    background-position: center;
+    background-size: cover;     
+    background-repeat: no-repeat;     
+    height: 80vh;     
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
