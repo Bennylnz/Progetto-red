@@ -75,3 +75,26 @@
     padding: 0;
 
 }
+
+.border-custom2{
+    border-left: 3px darkred solid;
+    padding: 0px 45px 20px;
+}
+
+.circle-custom2{
+    height: 25px;
+    width: 25px;
+    border:2px solid darkred;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 38px;
+
+}
+
+.bg-custom4{background: linear-gradient(to bottom,white,rgb(0, 0, 0, 0)),url(./media/single.png), white;
+    background-position: bottom right;
+    background-repeat: no-repeat;     
+    
+   
+}
