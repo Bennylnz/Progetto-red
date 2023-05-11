@@ -3,6 +3,13 @@
     
 }
 
+@media screen and (max-width: 482px) {
+    .media-custom{
+        align-items: flex-end;
+        margin-bottom: 4rem;
+    }
+        
+    }
 .bg-custom{
     background: linear-gradient(to bottom, rgb(255, 255, 255),rgb(0, 0, 0, 0)),url(./media/mountains2.png), url(./media/switzerland-862870_1920.jpg);
     background-position: center;
@@ -20,8 +27,17 @@
 .custom-title{
     color:darkred;
     font-family: 'Nova Square', cursive;
-    letter-spacing: 80px;
-    font-size: 90px;
+    letter-spacing: 5rem;
+    font-size: 5.6rem;
+}
+
+@media screen and (max-width: 600px) {
+    .custom-title{
+        letter-spacing: 0rem;
+    }
+    
+
+    
 }
 .custom-lorem::before{
     content: url(/media/virgolette-1.png);
@@ -65,6 +81,9 @@
     background-color: darkred;
     padding: 10px 45px ;
 }
+
+   
+
 .bg-custom3{background: linear-gradient(to bottom,#ececec,rgb(0, 0, 0, 0)),url(/media/trees2.png), #ececec;
     background-position: center;
     background-size: cover;     
