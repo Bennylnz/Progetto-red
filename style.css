@@ -1,5 +1,5 @@
 *{
-    font-family: 'Nova Square';
+    font-family: 'Rajdhani', sans-serif;
     
 }
 
@@ -35,15 +35,23 @@
     .custom-title{
         letter-spacing: 0rem;
     }
+    }
     
 
-    
-}
+  
 .custom-lorem::before{
     content: url(/media/virgolette-1.png);
 }
 .custom-lorem::after{
     content: url(/media/virgolette-2.png);
+}
+
+.custom-lorem{
+    font-family: 'Rajdhani', sans-serif;
+    font-size:175% ;
+    font-weight:600;
+    text-align: center;
+    font-style: oblique;
 }
 
 .icon-custom{
@@ -75,6 +83,7 @@
 }
 .text-red-custom{
     color: darkred;
+    font-family: 'Nova Square', cursive;
 
 }
 .button-custom{
@@ -97,19 +106,23 @@
 
 .border-custom2{
     border-left: 3px darkred solid;
-    padding: 0px 45px 20px;
+    padding-left:20px;
 }
 
 .circle-custom2{
-    height: 25px;
-    width: 25px;
+    height: 1.5rem;
+    width: 1.5rem;
     border:2px solid darkred;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    left: 38px;
+    left: 14px;
 
 }
+
+
+
+
 
 .bg-custom4{background: linear-gradient(to bottom,white,rgb(0, 0, 0, 0)),url(./media/single.png), white;
     background-position: bottom right;
@@ -151,4 +164,8 @@
 footer{
     background-color: darkred ;
     color: white;
+}
+
+.p-custom{
+    font-style: oblique;
 }
